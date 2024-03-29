@@ -7,7 +7,6 @@ Technologies Used:
 HTML5: Semantic structure and content definition.
 CSS3: Styling, layout design, and responsiveness.
 JavaScript: DOM manipulation, event handling, and dynamic content interaction.
-jQuery: Simplified AJAX calls, animations, and handling of events for enhanced user interface interactions.
 Responsive Web Design Techniques: Media queries and flexible grid layouts to ensure the application is fully responsive across various devices and screen sizes.
 Implementations Notes:
 
