@@ -28,10 +28,6 @@
     row-gap: 4px;
 }
 
-/* .footer .first-col {
-    flex: 1 22%;
-} */
-
 .contain .col:not(.first-col) {
     flex: 1 auto;
 }

@@ -330,7 +330,16 @@ button[aria-expanded="true"] .down-arrow-header::after {
   transform: translateY(-8px) rotate(-45deg);
 }
 
-/* Media Query */
+@media (max-width: 706px) {
+
+  .right-container {
+    display: none;
+  }
+
+  .logo {
+    margin-right: 2px;
+  }
+}
 
 @media (max-width: 1100px) {
   
@@ -422,16 +431,5 @@ button[aria-expanded="true"] .down-arrow-header::after {
 
   .dropdown h3 img {
     display: none;
-  }
-}
-
-@media (max-width: 706px) {
-
-  .right-container {
-    display: none;
-  }
-
-  .logo {
-    margin-right: 2px;
   }
 }

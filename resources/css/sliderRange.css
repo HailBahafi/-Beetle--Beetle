@@ -15,12 +15,10 @@
   padding-left: 10px;
 }
 
-/* Custom input range */
 .range {
   height: 100px;
   width: 170%;
   max-width: 96%;
-  /* box-shadow: 0 6px 16px hsla(256, 72%, 24%, .15); */
   padding-inline: 2rem;
   display: grid;
 }
@@ -57,7 +55,6 @@
   position: absolute;
 }
 
-/* Value input range */
 .range__value {
   width: 30px;
   height: 30px;
@@ -76,8 +73,6 @@
   color: white;
   font-size: 0.8rem;
   font-weight: 700;
-  /* margin-right: 20px; */
-  /* background-color: black; */
 }
 
 .range__numbers {
@@ -92,7 +87,6 @@
 
 .range__number-left {
   color: rgb(62, 61, 61);
-  /* Or any color you want */
   font-weight: bold;
   padding-left: 12px;
   
@@ -100,13 +94,11 @@
 
 .range__number-right {
   color: rgb(62, 61, 61);
-  /* Or any color you want */
   font-weight: bold;
   margin-right: -6px;
 }
 
 
-/* Default input range */
 .range__input {
   appearance: none;
   width: 100%;
