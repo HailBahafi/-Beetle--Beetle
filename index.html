@@ -1,0 +1,520 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beetle Beetle</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- CSS here  -->
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/navbar.css">
+    <link rel="stylesheet" href="./resources/css/herosection.css">
+    <link rel="stylesheet" href="./resources/css/informationSection.css">
+    <link rel="stylesheet" href="./resources/css/sliderRange.css">
+    <link rel="stylesheet" href="./resources/css/postSection.css">
+    <link rel="stylesheet" href="./resources/css/footerSection.css">
+    <!-- css end  here-->
+</head>
+
+<body>
+    <div>
+    </div>
+    <!-- header start -->
+    <header id="nav-menu" aria-label="navigation bar">
+        <div class="container">
+            <div class="nav-start">
+                <a class="logo" href="/">
+                    <img src="./resources/images/logo.png" width="180" height="50" alt="Inc Logo" />
+                </a>
+                <nav class="menu">
+                    <ul class="menu-bar">
+                        <li>
+                            <button class="nav-link dropdown-btn" data-dropdown="dropdown-industries"
+                                aria-haspopup="true" aria-expanded="false" aria-label="browse">
+                                Industries
+                                <i class="down-arrow-header" aria-hidden="true"></i>
+                            </button>
+
+                            <div id="dropdown-industries" class="dropdown">
+                                <h3>Industries <img src="./resources/images/right-arrow.svg" alt=""></h3>
+                                <ul role="menu">
+                                    <li role="menuitem">
+                                        <a class="dropdown-link" href="#best-of-the-day">
+                                            <img src="./resources/images/privateEquity.svg" class="icon" />
+                                            <div>
+                                                <span class="dropdown-link-title">Private Equity</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li role="menuitem">
+                                        <a class="dropdown-link" href="#featured-streams">
+                                            <img src="./resources/images/ventureCapital.svg" class="icon" />
+                                            <div>
+                                                <span class="dropdown-link-title">Venture Capital</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li role="menuitem">
+                                        <a class="dropdown-link" href="#featured-streams">
+                                            <img src="./resources/images/commercialRealEstate.svg" class="icon" />
+                                            <div>
+                                                <span class="dropdown-link-title">Commercial Real Estate</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li role="menuitem">
+                                        <a class="dropdown-link" href="#subscriptions">
+                                            <img src="./resources/images/investmentBanking.svg" class="icon" />
+                                            <div>
+                                                <span class="dropdown-link-title">Investment Banking/M&A Advisory</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li role="menuitem">
+                                        <a class="dropdown-link" href="#creative-feed">
+                                            <img src="./resources/images/CorporationDevolopment.svg" class="icon" />
+                                            <div>
+                                                <span class="dropdown-link-title">Corporate Devolopment / M&A</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li role="menuitem">
+                                        <a class="dropdown-link" href="#creative-feed">
+                                            <img src="./resources/images/consultingCRM.svg" class="icon" />
+                                            <div>
+                                                <span class="dropdown-link-title">Consulting CRM</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <button class="nav-link dropdown-btn" data-dropdown="dropdown-product" aria-haspopup="true"
+                                aria-expanded="false" aria-label="browse">
+                                Product
+                                <i class="down-arrow-header" aria-hidden="true"></i>
+                            </button>
+                            <div id="dropdown-product" class="dropdown">
+                                <ul role="menu">
+                                    <li role="menuitem">
+                                        <a class="dropdown-link" href="#best-of-the-day">
+                                            <img src="./resources/images/CRM.svg" class="icon" />
+                                            <div>
+                                                <span class="dropdown-link-title">CRM</span>
+                                                <p>Eliminate busywork and manage deals</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li role="menuitem">
+                                        <a class="dropdown-link" href="#featured-streams">
+                                            <img src="./resources/images/reporting.svg" class="icon" />
+                                            <div>
+                                                <span class="dropdown-link-title">Reporting</span>
+                                                <p>Drive Efficiency to Close More Deals</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li role="menuitem">
+                                        <a class="dropdown-link" href="#subscriptions">
+                                            <img src="./resources/images/integrations.svg" class="icon" />
+                                            <div>
+                                                <span class="dropdown-link-title">Integrations</span>
+                                                <p>Use Relationship Intelligence Everywhere</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li role="menuitem">
+                                        <a class="dropdown-link" href="#creative-feed">
+                                            <img src="./resources/images/salesForce.png" class="icon" />
+                                            <div>
+                                                <span class="dropdown-link-title">Salesforce</span>
+                                                <p>The Power of Relationship Intelligence Inside Salesforce</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul role="menu">
+                                    <li role="menuitem">
+                                        <a class="dropdown-link" href="#best-of-the-day">
+                                            <img src="./resources/images/relationshipIntelligence.svg" class="icon" />
+                                            <div>
+                                                <span class="dropdown-link-title">Relationship Intelligence</span>
+                                                <p>Uncover new opportunities and find warm introductions</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li role="menuitem">
+                                        <a class="dropdown-link" href="#featured-streams">
+                                            <img src="./resources/images/mobile.svg" class="icon" />
+                                            <div>
+                                                <span class="dropdown-link-title">Mobile</span>
+                                                <p>Manage Deals From Anywhere</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li role="menuitem">
+                                        <a class="dropdown-link" href="#subscriptions">
+                                            <img src="./resources/images/dealFlowSoftware.svg" class="icon" />
+                                            <div>
+                                                <span class="dropdown-link-title">Deal Flow Software</span>
+                                                <p>Easily Manage Your Deals</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a class="nav-link" href="#Calculater Section">Calculator</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="nav-end">
+                <div class="right-container">
+                    <a class="nav-login" href="#">Log In</a>
+                    <div class="nav-demo-container">
+                        <a class="nav-demo" href="#">Request a Demo</a>
+                        <span class="right-arrow"></span>
+                    </div>
+                </div>
+                <button id="hamburger" aria-label="hamburger" aria-haspopup="true" aria-expanded="false">
+                    <i class="bx bx-menu" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+
+    <!-- hero section start -->
+    <section class="hero-section-container">
+        <div class="hero-section-text">
+            <div class="hero-nav">
+                <button class="nav-button active" data-target="0"></button>
+                <button class="nav-button" data-target="1"></button>
+            </div>
+            <div class="hero-text">
+                <div class="text-item active" data-id="0">
+                    <h1 class="textSwitch-1">Build more <span class="underline-text">relationships.</span><br
+                            class="responsive-br"> Close
+                        more deals. Automate <br class="responsive-br"> Everything In Between. </h1>
+                    <p class="textSwitch-1">The relationship intelligence & deal flow platform designed by <br
+                            class="responsive-br">
+                        ex-investors for <br class="responsive-br-text-bgyellow"> <span
+                            class="hero-text-bgyellow">Venture Capital</span></p>
+                </div>
+                <div class="text-item " data-id="1">
+                    <h1 class="textSwitch-1">Stop wasting hours on <br class="responsive-br"> outdated spreadsheets <br
+                            class="responsive-br"> and clunky <span class="underline-text">CRMs.</span></h1>
+                    <p class="textSwitch-1">Our news platform helps you <br class="responsive-br-text-bgyellow"> <span
+                            class="hero-text-bgyellow">eliminate
+                            busywork</span> and manage <br class="responsive-br"> your deals and relationships
+                        effortlessly.</p>
+                </div>
+                <div class="hero-section-Demo-button"> 
+                    <input type="text" placeholder="Enter your email" >
+                    <div class="nav-demo-container">
+                        <a class="nav-demo" href="#">Request a Demo</a>
+                        <span class="right-arrow"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-section-image">
+            <div class="hero-section-image-frame">
+                <img class="image1-frame" src="./resources/images/Frame1.png" alt="">
+                <img class="image2-frame" src="./resources/images/Frame2.png" alt="">
+            </div>
+            <img class="image3-frame" src="./resources/images/vector.png" alt="">
+        </div>
+    </section>
+
+    <!-- Information Section end -->
+
+
+    <!-- Calculater Section start -->
+
+    <section class="informationwithcalculater-container" id="Calculater Section" >
+        <aside class="information-section-container">
+            <h1>Find Signals That Close Deals</h1>
+            <details class="information-section-detail">
+                <summary class="information-section-title">Number of Team Members: <span class="gg-chevron-down"></span>
+                </summary>
+                <p>How many people are in your firm’s deal team?</p>
+            </details>
+            <details class="information-section-detail">
+                <summary class="information-section-title">Size of Network: <span class="gg-chevron-down"></span>
+                </summary>
+                <p>How many contacts are in your network?</p>
+            </details>
+            <details class="information-section-detail">
+                <summary class="information-section-title">Number of Signals Per Contact: <span
+                        class="gg-chevron-down"></span></summary>
+                <p>How many signals (job changes, investments, mentions). Average: 1 signal per 2 contacts.</p>
+            </details>
+            <details class="information-section-detail">
+                <summary class="information-section-title">Percent of Legitimate Signals: <span
+                        class="gg-chevron-down"></span></summary>
+                <p>Signals that can lead you to reach out to a certain company. Average: 10%</p>
+            </details>
+            <details class="information-section-detail">
+                <summary class="information-section-title">Percent of Hard to Discover Signals: <span
+                        class="gg-chevron-down"></span></summary>
+                <p>Signals that can only be discovered with relationship intelligence technology. Average: 10 to 20%</p>
+            </details>
+        </aside>
+        <div class="calculater-section-container">
+            <div class="calculater-section-input">
+                <label for="fname">Number of Team Members</label>
+                <input class="calculater-input" type="number" id="numTeamMembers" name="numTeamMembers">
+            </div>
+            <div class="calculater-section-input">
+                <label for="fname">Size of Network</label>
+                <input class="calculater-input" type="number" id="sizeOfNetwork" name="sizeOfNetwork">
+            </div>
+            <div class="calculater-section-input">
+                <label for="fname">Number of Signals Per Contact / Year</label>
+                <input class="calculater-input" type="number" id="numSignals" name="numSignals">
+            </div>
+
+            <div class="slider-container">
+                <div class="label-wrapper">
+                    <span>% Legitimate Signals</span>
+                </div>
+                <div class="range">
+                    <div class="range__content">
+                        <div class="range__numbers">
+                            <span class="range__number-left">0</span>
+                            <span class="range__number-right">100</span>
+                        </div>
+
+                        <div class="range__slider">
+                            <div class="range__slider-line" id="range-line"></div>
+                        </div>
+
+                        <div class="range__thumb" id="range-thumb">
+                            <div class="range__value">
+                                <span class="range__value-number" id="range-number">50</span>
+                            </div>
+                        </div>
+                        <input type="range" class="range__input" id="percentLegitimate" min="0" max="100" value="0"
+                            step="1">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second slider with unique IDs -->
+            <div class="slider-container">
+                <div class="label-wrapper">
+                    <span>Unique/Hard To Discover Signals</span>
+                </div>
+                <div class="range">
+                    <div class="range__content">
+                        <div class="range__numbers">
+                            <span class="range__number-left">0</span>
+                            <span class="range__number-right">100</span>
+                        </div>
+                        <div class="range__slider">
+                            <div class="range__slider-line" id="range-line-2"></div>
+                        </div>
+                        <div class="range__thumb" id="range-thumb-2">
+                            <div class="range__value">
+                                <span class="range__value-number" id="range-number-2">50</span>
+                            </div>
+                        </div>
+                        <input type="range" class="range__input" id="percentUnique" min="0" max="100" value="0"
+                            step="1">
+                    </div>
+                </div>
+            </div>
+            <div class="calculater-section-input">
+                <label for="fname">Number of New Signals</label>
+                <input class="calculater-input" type="text" id="numNewSignals" name="numNewSignals" readonly>
+            </div>
+        </div>
+    </section>
+    <!-- Calculater Section end -->
+
+
+    <!-- post Section start -->
+
+    <section class="posts-section-container">
+        <h1>Latest Posts</h1>
+        <div class="posts-section-menu">
+            <ul>
+                <li>All</li>
+                <li>Private Equity</li>
+                <li>Investment Banking</li>
+                <li>Consulting</li>
+            </ul>
+            <div class="posts-section-search">
+                <input class="" placeholder="Search" type="text" id="fname" name="fname">
+                <span><img src="./resources/images/searchIcon.svg" alt=""></span>
+            </div>
+        </div>
+        <div>
+            <main class="post-section-content">
+                <article class="article">
+                    <img src="./resources/images/post1.png" alt="Sample photo">
+                    <div class="post-section-text">
+                        <h6>Private Equity</h6>
+                        <h5>Introducing 4Degrees Campaigns</h5>
+                        <p>With competition getting tougher in the private markets, becoming...</p>
+                    </div>
+                </article>
+                <article class="article">
+                    <img src="./resources/images/post2.png" alt="Sample photo">
+                    <div class="post-section-text">
+                        <h6>Investment Banking</h6>
+                        <h5>Introducing 4Degrees Campaigns</h5>
+                        <p>With competition getting tougher in the private markets, becoming...</p>
+                    </div>
+                </article>
+                <article class="article">
+                    <img src="./resources/images/post3.png" alt="Sample photo">
+                    <div class="post-section-text">
+                        <h6>Consulting</h6>
+                        <h5>Introducing 4Degrees Campaigns</h5>
+                        <p>With competition getting tougher in the private markets, becoming...</p>
+                    </div>
+                </article>
+                <article class="article">
+                    <img src="./resources/images/post4.png" alt="Sample photo">
+                    <div class="post-section-text">
+                        <h6>Private Equity</h6>
+                        <h5>Introducing 4Degrees Campaigns</h5>
+                        <p>With competition getting tougher in the private markets, becoming...</p>
+                    </div>
+                </article>
+                <article class="article">
+                    <img src="./resources/images/post5.png" alt="Sample photo">
+                    <div class="post-section-text">
+                        <h6>Investment Banking</h6>
+                        <h5>Introducing 4Degrees Campaigns</h5>
+                        <p>With competition getting tougher in the private markets, becoming...</p>
+                    </div>
+                </article>
+                <article class="article">
+                    <img src="./resources/images/post1.png" alt="Sample photo">
+                    <div class="post-section-text">
+                        <h6>Private Equity</h6>
+                        <h5>Introducing 4Degrees Campaigns</h5>
+                        <p>With competition getting tougher in the private markets, becoming...</p>
+                    </div>
+                </article>
+                <article class="article">
+                    <img src="./resources/images/post2.png" alt="Sample photo">
+                    <div class="post-section-text">
+                        <h6>Consulting</h6>
+                        <h5>Introducing 4Degrees Campaigns</h5>
+                        <p>With competition getting tougher in the private markets, becoming...</p>
+                    </div>
+                </article>
+                <article class="article">
+                    <img src="./resources/images/post3.png" alt="Sample photo">
+                    <div class="post-section-text">
+                        <h6>Private Equity</h6>
+                        <h5>Introducing 4Degrees Campaigns</h5>
+                        <p>With competition getting tougher in the private markets, becoming...</p>
+                    </div>
+                </article>
+                <article class="article">
+                    <img src="./resources/images/post4.png" alt="Sample photo">
+                    <div class="post-section-text">
+                        <h6>Consulting</h6>
+                        <h5>Introducing 4Degrees Campaigns</h5>
+                        <p>With competition getting tougher in the private markets, becoming...</p>
+                    </div>
+                </article>
+                <article class="article">
+                    <img src="./resources/images/post5.png" alt="Sample photo">
+                    <div class="post-section-text">
+                        <h6>Investment Banking</h6>
+                        <h5>Introducing 4Degrees Campaigns</h5>
+                        <p>With competition getting tougher in the private markets, becoming...</p>
+                    </div>
+                </article>
+
+            </main>
+        </div>
+        <div class="load-more-conainer" id="load-more-conainer">
+            <p> load more</p>
+            <span class="loadmore-arrow-down"></span>
+        </div>
+    </section>
+
+    <!-- post Section end -->
+
+    <!-- footer section stert -->
+    <section class="footer">
+        <div class="contain">
+            <div class="col first-col">
+                <div class="col">
+                    <span><img src="./resources/images/logo.png" alt=""></span>
+                    <ul>
+                        <li class="full-width-li">The Relationship Intelligence and Deal Flow <br class="responsive-br">
+                            CRM Designed by Ex-Investors</li>
+                    </ul>
+                    <div class="social">
+                        <ul>
+                            <li><img class="fa-brands" src="./resources/images/facebook.png" alt=""></li>
+                            <li><img class="fa-brands" src="./resources/images/twitter.png" alt=""></li>
+                            <li><img class="fa-brands" src="./resources/images/socialmedia3.png" alt=""></li>
+                            <li><img class="fa-brands" src="./resources/images/linkedin.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <ul>
+                    <li>About 4degrees</li>
+                    <li>About Us</li>
+                    <li>Careers</li>
+                    <li>Privacy Policy</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="col">
+                <ul>
+                    <li>Resources</li>
+                    <li>Blog</li>
+                    <li>Content Library</li>
+                    <li>Customer Stories</li>
+                </ul>
+            </div>
+            <div class="col">
+                <ul>
+                    <li>industries</li>
+                    <li>Venture Capital</li>
+                    <li>Private Equity</li>
+                    <li>Mergers & Acquistions</li>
+                    <li>Investment Banking</li>
+                    <li>Commercial Realestate</li>
+                    <li>Consulting</li>
+                </ul>
+            </div>
+            <div class="col">
+                <ul>
+                    <li>Product</li>
+                    <li>CRM</li>
+                    <li>Reporting</li>
+                    <li>Mobile</li>
+                    <li>integrations</li>
+                    <li>Salesforce</li>
+                    <li>Relationship intelligence</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- footer Section end -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
